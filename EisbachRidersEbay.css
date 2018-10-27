@@ -25,8 +25,13 @@ a {
   font-size: 18px;
 }
 .logo {
-  width: 150px;
+  width: 100px;
   margin-bottom: 15px;
+}
+@media (min-width: 576px) {
+  .logo {
+    width: 150px;
+  }
 }
 .container {
   position: relative;
@@ -40,11 +45,22 @@ a {
   margin-bottom: 30px;
   color: #080b0f;
   font-weight: 600;
+  font-size: 30px;
+}
+@media (min-width: 576px) {
+  .container h1 {
+    font-size: 3.5rem;
+  }
 }
 .header {
-  padding-top: 40px;
+  padding-top: 15px;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+@media (min-width: 576px) {
+  .header {
+    padding-top: 30px;
+  }
 }
 .menu i {
   font-size: 24px;
@@ -57,6 +73,11 @@ a {
   font-size: 20px;
   padding-top: 60px;
   padding-bottom: 15px;
+}
+@media (min-width: 576px) {
+  .listing-title h1 {
+    padding-top: 30px;
+  }
 }
 .listing-info h2 {
   font-size: 20px;
@@ -82,8 +103,13 @@ a {
   padding-right: 5px;
 }
 .description {
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #c4c4c4;
+}
+@media (min-width: 576px) {
+  .description {
+    padding-bottom: 90px;
+  }
 }
 .bottom h5,
 .btn-action,
@@ -106,8 +132,8 @@ a {
   border: 1px solid #e2e2e2;
 }
 .images {
-  margin-bottom: 40px;
-  padding: 20px;
+  margin-bottom: 30px;
+  padding: 30px;
 }
 .images .main-image {
   display: none;
@@ -141,13 +167,25 @@ a {
   cursor: pointer;
 }
 .content-box {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+}
+@media (min-width: 576px) {
+  .content-box {
+    margin-bottom: 60px;
+  }
 }
 .promo h3 {
   margin-bottom: 30px;
 }
 .promo .item {
-  height: 250px;
+  height: 200px;
+  flex-basis: 50%;
+}
+@media (min-width: 576px) {
+  .promo .item {
+    height: 250px;
+    flex-basis: none;
+  }
 }
 .promo .item_title {
   white-space: nowrap;
@@ -156,9 +194,14 @@ a {
   text-align: center;
 }
 .promo .item_picture {
-  height: 140px;
+  height: 100px;
   margin-bottom: 20px;
   text-align: center;
+}
+@media (min-width: 576px) {
+  .promo .item_picture {
+    height: 140px;
+  }
 }
 .promo .item_title a {
   color: #080b0f;
@@ -179,7 +222,12 @@ a {
 }
 .bottom i {
   color: #080b0f;
-  font-size: 56px;
+  font-size: 36px;
+}
+@media (min-width: 576px) {
+  .bottom i {
+    font-size: 56px;
+  }
 }
 .bottom h3 {
   font-size: 18px;
