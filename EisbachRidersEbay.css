@@ -1,0 +1,205 @@
+/** 
+*	Stylesheet for EisbachRiders Ebay
+*
+*	@version 1.0 (initial release) 
+*	@copyright Eisbach Riders 2018
+*
+*/
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+ul li a:hover {
+  text-decoration: none;
+  color: #0475f9;
+}
+a {
+  color: #080b0f;
+}
+.nav-center {
+  justify-content: center;
+}
+.nav-border {
+  /* border-top: 1px solid #c4c4c4; */
+  border-bottom: 1px solid #c4c4c4;
+}
+.nav-size {
+  font-size: 18px;
+}
+.logo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+.container {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #080b0f;
+}
+.container h1 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #080b0f;
+  font-weight: 600;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.menu i {
+  font-size: 24px;
+  line-height: 125px;
+}
+.sidebar-box {
+  margin-bottom: 30px;
+}
+.listing-title h1 {
+  font-size: 20px;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+.listing-info h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.left-col h3 {
+  margin-bottom: 20px;
+}
+.left-col ul {
+  margin-bottom: 40px;
+  -webkit-overflow-scrolling: touch;
+}
+.left-col ul li {
+  margin-bottom: 7px;
+}
+.left-col ul li a {
+  color: #080b0f;
+}
+.left-col ul li a:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  content: "\f105";
+  padding-right: 5px;
+}
+.description {
+  padding-bottom: 90px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.bottom h5,
+.btn-action,
+.left-col .btn-subscribe {
+  font-family: "Open Sans", sans-serif;
+}
+.left-col ul li a:hover,
+.left-col ul li a:hover + i {
+  color: #080b0f;
+  text-decoration: none;
+}
+.left-col .btn-subscribe {
+  border: 1px solid #e2e2e2;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  color: #080b0f;
+}
+.btn-action,
+.images {
+  border: 1px solid #e2e2e2;
+}
+.images {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.images .main-image {
+  display: none;
+  max-width: 100%;
+}
+.images input:checked + img {
+  display: block;
+}
+.images .image-selector {
+  display: none;
+}
+.thumbs {
+  margin-top: 30px;
+  width: 100%;
+  overflow: auto;
+}
+.thumbs ul {
+  margin-right: -999em;
+  list-style: none;
+  white-space: nowrap;
+  padding: 0;
+  float: left;
+}
+.thumbs ul li {
+  display: inline;
+  margin: 7px;
+}
+.thumbs .thumb {
+  max-width: 85px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.content-box {
+  margin-bottom: 60px;
+}
+.promo h3 {
+  margin-bottom: 30px;
+}
+.promo .item {
+  height: 250px;
+}
+.promo .item_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.promo .item_picture {
+  height: 140px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.promo .item_title a {
+  color: #080b0f;
+}
+.promo .item_price {
+  text-align: center;
+  font-weight: 700;
+}
+.promo .item_img {
+  height: 100%;
+}
+.bottom-box {
+  padding-top: 40px;
+  border-top: 1px solid #e2e2e2;
+}
+.bottom-box .icon {
+  margin-bottom: 40px;
+}
+.bottom i {
+  color: #080b0f;
+  font-size: 56px;
+}
+.bottom h3 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #080b0f;
+  font-weight: 600;
+}
+.btn-action {
+  color: #080b0f;
+  border-radius: 0;
+  -moz-border-radius: 0;
+}
+.footer-text {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+.footer a {
+  color: #666;
+}
