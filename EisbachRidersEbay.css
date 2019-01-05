@@ -42,7 +42,7 @@ a {
 .container h1 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   color: #080b0f;
   font-weight: 600;
   font-size: 30px;
@@ -61,6 +61,14 @@ a {
   .header {
     padding-top: 30px;
   }
+}
+.subtitle {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.background{
+  background-color: #eeeeee;
+  padding-top: 30px;
 }
 .menu i {
   font-size: 24px;
@@ -215,7 +223,6 @@ a {
 }
 .bottom-box {
   padding-top: 40px;
-  border-top: 1px solid #e2e2e2;
 }
 .bottom-box .icon {
   margin-bottom: 40px;
