@@ -9,17 +9,24 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 ul li a:hover {
   text-decoration: none;
-  color: #0475f9;
+  color: #00d7a2;
 }
 a {
-  color: #080b0f;
+  color: #00130e;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+body {
+  padding-bottom: 100px;
+  background-color: #fafafa;
 }
 .nav-center {
   justify-content: center;
 }
 .nav-border {
-  /* border-top: 1px solid #c4c4c4; */
-  border-bottom: 1px solid #c4c4c4;
+  border-bottom: 1px solid #00d7a2;
 }
 .nav-size {
   font-size: 18px;
@@ -37,13 +44,13 @@ a {
   position: relative;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #080b0f;
+  color: #00130e;
 }
 .container h1 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   margin-bottom: 5px;
-  color: #080b0f;
+  color: #00130e;
   font-weight: 600;
   font-size: 30px;
 }
@@ -66,8 +73,8 @@ a {
   padding-bottom: 15px;
   font-size: 20px;
 }
-.background{
-  background-color: #eeeeee;
+.background {
+  background-color: #f7f5ee;
   padding-top: 30px;
 }
 .menu i {
@@ -102,7 +109,7 @@ a {
   margin-bottom: 7px;
 }
 .left-col ul li a {
-  color: #080b0f;
+  color: #00130e;
 }
 .left-col ul li a:before {
   display: inline-block;
@@ -126,14 +133,14 @@ a {
 }
 .left-col ul li a:hover,
 .left-col ul li a:hover + i {
-  color: #080b0f;
+  color: #00d7a2;
   text-decoration: none;
 }
 .left-col .btn-subscribe {
   border: 1px solid #e2e2e2;
   border-radius: 0;
   -moz-border-radius: 0;
-  color: #080b0f;
+  color: #00130e;
 }
 .btn-action,
 .images {
@@ -212,7 +219,7 @@ a {
   }
 }
 .promo .item_title a {
-  color: #080b0f;
+  color: #00130e;
 }
 .promo .item_price {
   text-align: center;
@@ -228,7 +235,7 @@ a {
   margin-bottom: 40px;
 }
 .bottom i {
-  color: #080b0f;
+  color: #00130e;
   font-size: 36px;
 }
 @media (min-width: 576px) {
@@ -240,11 +247,11 @@ a {
   font-size: 18px;
   margin-top: 15px;
   margin-bottom: 15px;
-  color: #080b0f;
+  color: #00130e;
   font-weight: 600;
 }
 .btn-action {
-  color: #080b0f;
+  color: #00130e;
   border-radius: 0;
   -moz-border-radius: 0;
 }
@@ -257,4 +264,15 @@ a {
 }
 .footer a {
   color: #666;
+}
+.product-img {
+  width: 100%;
+}
+.text-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 60px;
+}
+.container-margin {
+  margin-bottom: 30px;
 }
